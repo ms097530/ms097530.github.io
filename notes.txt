@@ -5,3 +5,44 @@ PS - Portfolio project
 - can use JS packages and css libraries/tools
 - what API to get data from?
   - Giphy?
+  - dad jokes?
+
+- useEffect to initialize component with data from API
+  - button to get new data?
+
+breakpoint for mobile at 375px?
+breakpoint for medium at 760px?
+
+SECTIONS
+1. about
+2. projects/some things I've built
+  - blackjack game
+  - comments section
+  - other frontend mentor projects?
+  - sparse matrix?
+3. my mission?
+  
+4. reward (joke)
+
+
+SOCIAL MEDIA
+- social media to include:
+  - linkedin
+  - github
+  - codepen
+- sticky sidebar on large screens, horizontal bar at bottom on smaller screens?
+
+
+CONTACT
+- second sticky sidebar on large screens with email?
+- a tag with href="mailto:mikewschultz9029@gmail.com" ?
+
+<a target="_blank" href="https://icons8.com/icon/12598/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+LOGO
+- loading bar logo
+  - font: Dosis Regular
+
+FONTS
+1. logo, nav, heading: Dosis Regular
+2. paragraph: Electrolize
