@@ -1,0 +1,7 @@
+PS - Portfolio project
+
+* using Vite
+
+- can use JS packages and css libraries/tools
+- what API to get data from?
+  - Giphy?
