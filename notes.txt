@@ -20,8 +20,7 @@ SECTIONS
   - comments section
   - other frontend mentor projects?
   - sparse matrix?
-3. my mission?
-  
+3. my mission?  
 4. reward (joke)
 
 
@@ -31,6 +30,9 @@ SOCIAL MEDIA
   - github
   - codepen
 - sticky sidebar on large screens, horizontal bar at bottom on smaller screens?
+
+- reference link for icons:
+<a target="_blank" href="https://icons8.com/icon/38375/codepen">CodePen</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 
 CONTACT
