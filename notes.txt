@@ -47,4 +47,28 @@ LOGO
 
 FONTS
 1. logo, nav, heading: Dosis Regular
+  - extra light, regular, semibold
 2. paragraph: Electrolize
+  - regular
+API
+- dad joke API
+- no auth required
+- set custom User-Agent header for all requests
+- GET https://icanhazdadjoke.com/
+  - for random joke
+- set Accept header as application/json
+
+response structure:
+{
+  "id": some randomly generated ID string,
+  "joke": string
+  "status": integer
+}
+
+SOURCES
+- https://brittanychiang.com/
+- https://dunks1980.com/
+- https://icons8.com
+- https://app.logo.com
+- https://fonts.google.com
+- https://icanhazdadjoke.com/
