@@ -39,14 +39,16 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+
 
   --dark-green: rgba(63, 158, 62, 1);
   --bright-green: rgba(95, 225, 94, 1);
@@ -61,6 +63,8 @@
   --dosis-regular: 'DosisRegular', serif;
   --dosis-semibold: 'DosisSemibold', serif;
   --electrolize: 'Electrolize', sans-serif;
+
+
 }
 
 a
@@ -82,7 +86,8 @@ body
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: var(--off-black);
+  /* override bootstrap variable for bg color */
+  --bs-body-bg: var(--off-black);
 }
 
 h1

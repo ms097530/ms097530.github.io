@@ -13,6 +13,9 @@ PS - Portfolio project
 breakpoint for mobile at 375px?
 breakpoint for medium at 760px?
 
+- how to style SVG?
+- how to style bootstrap hamburger?
+
 SECTIONS
 1. about
 2. projects/some things I've built
@@ -72,3 +75,4 @@ SOURCES
 - https://app.logo.com
 - https://fonts.google.com
 - https://icanhazdadjoke.com/
+- https://css-tricks.com/gradient-borders-in-css/ (Container for gradient border behind)
