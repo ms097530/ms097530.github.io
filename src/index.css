@@ -1,4 +1,34 @@
-:root {
+/* * FONT IMPORTS */
+@font-face
+{
+  font-family: 'DosisExtraLight';
+  src: url('/fonts/Dosis/static/Dosis-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face
+{
+  font-family: 'DosisRegular';
+  src: url('/fonts/Dosis/static/Dosis-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face
+{
+  font-family: 'DosisSemibold';
+  src: url('/fonts/Dosis/static/Dosis-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face
+{
+  font-family: 'Electrolize';
+  src: url('/fonts/Electrolize/Electrolize-Regular.ttf');
+  font-weight: 400;
+}
+
+:root
+{
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -12,18 +42,35 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --dark-green: rgba(63, 158, 62, 1);
+  --bright-green: rgba(95, 225, 94, 1);
+  --dark-blue: rgba(41, 129, 230, 1);
+  --light-blue: rgba(108, 179, 255, 0.9);
+  --off-black: rgba(44, 47, 44, 1);
+  --white: rgba(255, 255, 255, 1);
+  --off-white: rgba(238, 238, 238, 1);
+
+  --dosis-extra-light: 'DosisExtraLight', serif;
+  --dosis-regular: 'DosisRegular', serif;
+  --dosis-semibold: 'DosisSemibold', serif;
+  --electrolize: 'Electrolize', sans-serif;
 }
 
-a {
+a
+{
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
-a:hover {
+
+a:hover
+{
   color: #535bf2;
 }
 
-body {
+body
+{
   margin: 0;
   display: flex;
   place-items: center;
@@ -31,12 +78,14 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+h1
+{
   font-size: 3.2em;
   line-height: 1.1;
 }
 
-button {
+button
+{
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -47,23 +96,14 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+
+button:hover
+{
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button:focus,
+button:focus-visible
+{
+  outline: 4px auto -webkit-focus-ring-color;
 }
