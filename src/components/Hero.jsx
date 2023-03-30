@@ -1,8 +1,15 @@
+import { createUseStyles } from "react-jss"
 
+const useStyles = createUseStyles({
+    myTest: {
+        color: 'var(--light-blue)'
+    }
+})
 
 export default function Hero()
 {
+    const classes = useStyles()
     return (
-        <div>Hero</div>
+        <div className={classes.myTest}>Hero</div>
     )
 }
