@@ -10,6 +10,6 @@ export default function Hero()
 {
     const classes = useStyles()
     return (
-        <div className={classes.myTest}>Hero</div>
+        <div className={classes.myTest} id="home">Hero</div>
     )
 }

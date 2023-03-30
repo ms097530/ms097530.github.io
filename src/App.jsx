@@ -1,25 +1,27 @@
 import './App.css'
-import Footer from './components/Footer'
+import NavigationBar from './components/NavigationBar'
 import Hero from './components/Hero'
 import Section from './components/Section'
-import missionContent from './components/section_content/MissionContent'
-import workContent from './components/section_content/WorkContent'
-import giftContent from './components/section_content/GiftContent'
+import Mission from './components//sections/Mission'
+import Projects from './components/sections/Projects'
+import Gift from './components/sections/Gift'
+import Footer from './components/Footer'
 
 function App()
 {
 
   return (
     <div className="App">
+      <NavigationBar />
       <Hero />
       <Section title="My Mission">
-        {missionContent}
+        <Mission />
       </Section>
-      <Section title="My Work">
-        {workContent}
+      <Section title="My Projects">
+        <Projects />
       </Section>
       <Section title="My Gift">
-        {giftContent}
+        <Gift />
       </Section>
       <Footer />
     </div>
