@@ -42,7 +42,8 @@ export default function Gift()
 
     return (
         <div className={classes.container}>
-            <h2>Gift</h2>
+            <h2>Bad jokes are the spice of life, or so they say. Don&apos;t ask who “they” is...</h2>
+            <h2>Here’s a dad joke!</h2>
             <p>{joke}</p>
             <button onClick={handleClick}>
                 GET JOKE
