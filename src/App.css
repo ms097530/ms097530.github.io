@@ -5,3 +5,18 @@
   padding: 2rem;
   text-align: center;
 }
+
+.navbar-toggler-icon
+{
+  --bs-navbar-toggler-icon-bg: url("data: image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' ><path stroke='rgba(41, 129, 230, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22' /></svg>");
+}
+
+.navbar-toggler
+{
+  border: none !important;
+}
+
+.navbar-toggler:focus
+{
+  box-shadow: none !important;
+}
