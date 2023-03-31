@@ -1,9 +1,18 @@
 import projectData from '../../data/project-data.js'
+import { createUseStyles } from 'react-jss'
+
+const useStyles = createUseStyles({
+    container:
+    {
+        color: 'var(--white)'
+    }
+})
 
 export default function Projects()
 {
+    const classes = useStyles()
     return (
-        <div>
+        <div className={classes.container}>
             {
                 projectData.map((project, i) =>
                 {
