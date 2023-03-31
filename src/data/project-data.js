@@ -1,4 +1,4 @@
-export default projectData = [
+const projectData = [
     {
         title: 'Chaos Blackjack',
         summary: 'This project is an implementation of the well-known card game Blackjack, but with the twist of being themed around the Chaos gods from Warhammer Fantasy: Khorne, Nurgle, Slaanesh, and Tzeentch. Card fronts and backs were personally stylized using HTML and CSS.',
@@ -28,3 +28,5 @@ export default projectData = [
         liveSite: 'https://ms097530.github.io/Frontend-mentor-dashboard/'
     }
 ]
+
+export default projectData
