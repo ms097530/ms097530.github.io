@@ -1,4 +1,4 @@
-
+import projectData from '../../data/project-data'
 
 export default function Projects()
 {
