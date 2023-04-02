@@ -11,7 +11,8 @@ export default {
     electrolizeBody:
     {
         fontFamily: 'var(--electrolize)',
-        fontSize: '1.25rem'
+        fontSize: '1.25rem',
+        letterSpacing: '0.03rem'
     },
     card:
     {
@@ -45,7 +46,6 @@ export default {
         gap: '1rem 2rem',
         fontSize: '1rem',
         marginBottom: '1.5rem'
-        // fontFamily: 'var(--electrolize)'
     },
     links:
     {
