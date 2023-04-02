@@ -27,7 +27,8 @@ export default {
         fontFamily: 'var(--dosis-extra-light)',
         color: 'var(--bright-green)',
         fontSize: '2.75rem',
-        marginBottom: '2.5rem'
+        marginBottom: '2.5rem',
+        letterSpacing: '0.08em'
     },
     summary:
     {
