@@ -6,7 +6,7 @@ const useStyles = createUseStyles({
         color: 'var(--off-white)',
         fontFamily: 'var(--electrolize)',
         fontSize: '1.25rem',
-        letterSpacing: '0.03rem',
+        letterSpacing: '0.03em',
         lineHeight: '1.5rem'
     }
 })

@@ -2,13 +2,9 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { createUseStyles } from 'react-jss'
 import _debounce from 'lodash/debounce';
+import styles from './Gift-styles'
 
-const useStyles = createUseStyles({
-    container:
-    {
-        color: 'var(--white)'
-    }
-})
+const useStyles = createUseStyles(styles)
 
 export default function Gift()
 {

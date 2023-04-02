@@ -12,7 +12,7 @@ export default {
     {
         fontFamily: 'var(--electrolize)',
         fontSize: '1.25rem',
-        letterSpacing: '0.03rem'
+        letterSpacing: '0.03em'
     },
     card:
     {
@@ -35,7 +35,7 @@ export default {
         fontFamily: 'var(--electrolize)',
         color: 'var(--white)',
         fontSize: '1.25rem',
-        letterSpacing: '0.03rem',
+        letterSpacing: '0.03em',
         lineHeight: '2.25rem'
     },
     techUsed:

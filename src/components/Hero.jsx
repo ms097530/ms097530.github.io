@@ -11,7 +11,7 @@ const useStyles = createUseStyles({
     {
         fontSize: '2.5rem',
         marginBottom: '1.5rem',
-        letterSpacing: '-0.04rem',
+        letterSpacing: '-0.04em',
         lineHeight: '3.25rem'
     },
     body:
@@ -20,7 +20,7 @@ const useStyles = createUseStyles({
         fontSize: '1.5rem',
         color: 'var(--light-blue)',
         marginTop: '3.5rem',
-        letterSpacing: '0.03rem',
+        letterSpacing: '0.03em',
         lineHeight: '3rem'
     },
     focus:

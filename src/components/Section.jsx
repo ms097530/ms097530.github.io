@@ -8,7 +8,7 @@ const useStyles = createUseStyles({
         color: 'var(--white)',
         textDecoration: 'underline',
         textTransform: 'uppercase',
-        letterSpacing: '0.08rem',
+        letterSpacing: '0.08em',
         marginBottom: '3rem'
     }
 })
