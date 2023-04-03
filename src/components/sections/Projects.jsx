@@ -1,5 +1,5 @@
 import projectData from '../../data/project-data.js'
-import { createUseStyles, useTheme } from 'react-jss'
+import { createUseStyles } from 'react-jss'
 import { ReactSVG } from 'react-svg'
 import styles from './Projects-styles.js'
 
@@ -7,8 +7,7 @@ const useStyles = createUseStyles(styles)
 
 export default function Projects()
 {
-    const theme = useTheme()
-    const classes = useStyles({ theme })
+    const classes = useStyles()
     return (
         <div className={classes.container}>
             {
