@@ -18,6 +18,11 @@ export default {
     },
     submenu:
     {
-        borderInline: '1px solid var(--off-white)'
+        borderInline: '1px solid var(--off-white)',
+        // bootstrap md breakpoint
+        '@media (min-width: 768px)':
+        {
+            borderInline: 'none'
+        }
     }
 }

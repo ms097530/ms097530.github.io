@@ -10,7 +10,7 @@ export default function NavigationBar()
 {
     const classes = useStyles()
     return (
-        <Navbar expand="lg" className="w-100">
+        <Navbar expand="md" className="w-100">
             <Navbar.Brand href="#home">
                 <div style={{ width: '60px', height: '60px' }}>
                     <ReactSVG
