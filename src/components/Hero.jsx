@@ -1,4 +1,5 @@
 import { createUseStyles } from "react-jss"
+import { useInView } from "react-intersection-observer"
 import styles from './Hero-styles.js'
 
 const useStyles = createUseStyles(styles)
@@ -6,8 +7,13 @@ const useStyles = createUseStyles(styles)
 export default function Hero()
 {
     const classes = useStyles()
+    const { ref, inView, entry } = useInView({
+        triggerOnce: true,
+        rootMargin: '-100px 0px'
+    })
+
     return (
-        <section className={classes.container} id="home">
+        <section className={`${classes.container} ${inView ? classes.animate : ''}`} id="home" ref={ref}>
             <div>
                 <h1 className={classes.header}>
                     <span className={classes.focus}>Mike</span> is my name. <span className={classes.focus}>Coding</span> is my game.

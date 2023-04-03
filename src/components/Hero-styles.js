@@ -8,6 +8,28 @@ export default {
         display: 'grid',
         alignItems: 'center',
         maxWidth: '700px',
+        // transition timing for when animate class is added via intersection observer
+        '& > div > *':
+        {
+            transition: 'transform 800ms ease-in-out',
+            transform: 'translateX(-150%)',
+            '&:nth-child(1)':
+            {
+                transitionDelay: '250ms'
+            },
+            '&:nth-child(2)':
+            {
+                transitionDelay: '500ms'
+            },
+            '&:nth-child(3)':
+            {
+                transitionDelay: '750ms'
+            },
+            '&:nth-child(4)':
+            {
+                transitionDelay: '1500ms'
+            }
+        },
         '@media (min-width: 700px)':
         {
             textAlign: 'left'
@@ -42,5 +64,12 @@ export default {
     focus:
     {
         color: 'var(--bright-green)'
+    },
+    animate:
+    {
+        '& > div > *':
+        {
+            transform: 'translateX(0)'
+        }
     }
 }
