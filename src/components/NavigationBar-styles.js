@@ -15,5 +15,9 @@ export default {
         {
             transition: 'color 300ms ease-in-out',
         }
+    },
+    submenu:
+    {
+        borderInline: '1px solid var(--off-white)'
     }
 }

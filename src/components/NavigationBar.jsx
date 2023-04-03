@@ -23,7 +23,7 @@ export default function NavigationBar()
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
             </Navbar.Toggle>
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Collapse id="basic-navbar-nav" className={classes.submenu}>
                 <Nav className={`${classes.links}`}>
                     {/* using active prop to disable active syling by React Bootstrap */}
                     <Nav.Link href="#home" active="">Home</Nav.Link>
