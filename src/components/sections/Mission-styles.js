@@ -10,10 +10,12 @@ export default {
     },
     textContainer:
     {
+        marginBottom: '2rem',
         '@media (min-width: 700px)':
         {
             maxWidth: '50%',
-            marginInline: 'auto'
+            marginInline: 'auto',
+            marginBottom: '0'
         }
     },
     text:
@@ -22,7 +24,8 @@ export default {
         fontFamily: 'var(--electrolize)',
         fontSize: '1.25rem',
         letterSpacing: '0.03em',
-        lineHeight: '2.25rem'
+        lineHeight: '2.25rem',
+        marginBottom: '2rem'
     },
     imgContainer:
     {
