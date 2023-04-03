@@ -42,12 +42,16 @@ export default {
         color: 'var(--light-blue-full)',
         border: '2px solid var(--light-blue-full)',
         backgroundColor: 'transparent',
-        transition: 'all 300ms ease-in-out',
+        transition: 'color 300ms ease-in-out, background-color 300ms ease-in-out, border 300ms ease-in-out',
         '&:hover':
         {
             color: 'var(--white)',
             backgroundColor: 'var(--dark-blue)',
             border: '2px solid var(--dark-blue)'
+        },
+        '&:active':
+        {
+            transform: 'translateY(0.5rem)'
         }
     }
 }
