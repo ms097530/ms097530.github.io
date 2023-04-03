@@ -10,7 +10,12 @@ export default {
         fontSize: '1rem',
         color: 'var(--white)',
         backgroundColor: 'var(--off-black)',
-        paddingTop: '1.5rem'
+        paddingTop: '1.5rem',
+        '@media (min-width: 700px)':
+        {
+            fontSize: '1.25rem',
+            paddingTop: '2.5rem'
+        }
     },
     link:
     {

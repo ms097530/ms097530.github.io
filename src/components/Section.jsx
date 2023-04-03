@@ -9,7 +9,8 @@ const useStyles = createUseStyles({
         textDecoration: 'underline',
         textTransform: 'uppercase',
         letterSpacing: '0.08em',
-        marginBottom: '3rem'
+        marginTop: '4rem',
+        marginBottom: '4rem',
     }
 })
 
