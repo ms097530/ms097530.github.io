@@ -3,10 +3,9 @@ export default {
     {
         color: 'var(--white)',
         marginBottom: '3rem',
-        padding: '2rem 3rem',
         '@media (min-width: 700px)':
         {
-
+            padding: '2rem 3rem',
             border: '2px solid var(--off-white)',
             borderRadius: '45px'
         }
