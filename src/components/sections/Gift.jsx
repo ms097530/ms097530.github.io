@@ -34,15 +34,22 @@ export default function Gift()
         getJoke()
     }, [])
 
-    const handleClick = _debounce(getJoke, 1000)
+    const handleClick = _debounce(getJoke, 250)
 
     return (
         <div className={classes.container}>
-            <h2>Bad jokes are the spice of life, or so they say. Don&apos;t ask who “they” is...</h2>
-            <h2>Here’s a dad joke!</h2>
-            <p>{joke}</p>
-            <button onClick={handleClick}>
-                GET JOKE
+            <h2 className={classes.heading}>
+                Bad jokes are the spice of life, or so they say.
+            </h2>
+            <h2 className={classes.heading}>
+                Don&apos;t ask who “they” is...
+            </h2>
+            <h2 className={classes.heading}>
+                Here’s a dad joke!
+            </h2>
+            <p className={`${classes.joke} ${classes.electrolizeBody}`}>{joke}</p>
+            <button className={classes.button} onClick={handleClick}>
+                GET NEW JOKE
             </button>
         </div>
     )
