@@ -44,3 +44,4 @@ LinkedIn - https://www.linkedin.com/in/michael-schultz-/
 - https://www.npmjs.com/package/react-intersection-observer
 - https://www.npmjs.com/package/react-bootstrap
 - https://stackoverflow.com/
+- https://www.adobe.com/express/feature/image/remove-background
