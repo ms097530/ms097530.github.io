@@ -3,6 +3,8 @@ export default {
     {
         color: 'var(--white)',
         marginBottom: '3rem',
+        opacity: '0',
+        transition: 'opacity 500ms ease-in-out',
         '@media (min-width: 700px)':
         {
             padding: '2rem 3rem',
@@ -52,5 +54,9 @@ export default {
         {
             transform: 'translateY(0.5rem)'
         }
+    },
+    animate:
+    {
+        opacity: '1'
     }
 }
