@@ -18,7 +18,13 @@ export default {
     {
         maxWidth: '500px',
         border: '2px solid var(--dark-green)',
-        padding: '1rem 2rem'
+        padding: '1rem 2rem',
+        opacity: '0',
+        transition: 'opacity 500ms ease-in-out, transform 500ms ease-in-out',
+        animate:
+        {
+            opacity: '1'
+        }
     },
     title:
     {
@@ -70,6 +76,17 @@ export default {
             {
                 color: 'var(--light-blue)',
                 fill: 'var(--light-blue)'
+            }
+        }
+    },
+    // * animation currently fades all in at once due to only observing the single container - refactoring card into new component and observing each card should remedy this
+    animate:
+    {
+        '@global':
+        {
+            section:
+            {
+                opacity: '1'
             }
         }
     }

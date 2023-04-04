@@ -1,20 +1,28 @@
 import projectData from '../../data/project-data.js'
 import { createUseStyles } from 'react-jss'
 import { ReactSVG } from 'react-svg'
+import { useInView } from 'react-intersection-observer'
 import styles from './Projects-styles.js'
+
 
 const useStyles = createUseStyles(styles)
 
 export default function Projects()
 {
     const classes = useStyles()
+    const { ref, inView, entry } = useInView({
+        triggerOnce: true,
+        rootMargin: '-100px 0px'
+    })
+
     return (
-        <div className={classes.container}>
+        <div className={`${classes.container} ${inView ? classes.animate : ''}`} ref={ref}>
             {
                 projectData.map((project, i) =>
                 {
                     return (
-                        <div className={classes.card} key={i}>
+                        // TODO: consider refactoring into separate component
+                        <section className={classes.card} key={i}>
                             <h3 className={classes.title}>{project.title}</h3>
                             <p className={classes.summary}>{project.summary}</p>
                             <ul className={`${classes.techUsed} ${classes.electrolizeBody}`}>
@@ -36,7 +44,7 @@ export default function Projects()
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </section>
                     )
                 })
             }
