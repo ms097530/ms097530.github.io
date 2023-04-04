@@ -76,3 +76,6 @@ SOURCES
 - https://fonts.google.com
 - https://icanhazdadjoke.com/
 - https://css-tricks.com/gradient-borders-in-css/ (Container for gradient border behind)
+- https://www.npmjs.com/package/react-intersection-observer
+- https://www.npmjs.com/package/react-bootstrap
+- https://stackoverflow.com/
