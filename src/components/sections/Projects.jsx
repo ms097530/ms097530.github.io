@@ -12,7 +12,7 @@ export default function Projects()
     const classes = useStyles()
     const { ref, inView, entry } = useInView({
         triggerOnce: true,
-        rootMargin: '-100px 0px'
+        rootMargin: '-250px 0px'
     })
 
     return (
