@@ -45,3 +45,5 @@ LinkedIn - https://www.linkedin.com/in/michael-schultz-/
 - https://www.npmjs.com/package/react-bootstrap
 - https://stackoverflow.com/
 - https://www.adobe.com/express/feature/image/remove-background
+- https://stackoverflow.com/questions/28434521/use-before-after-pseudo-element-to-make-a-line
+- https://stackoverflow.com/questions/40965977/cant-target-before-pseudo-selector-in-jss

@@ -12,6 +12,7 @@ export default function NavigationBar()
     return (
         <Navbar expand="md" className="w-100">
             <Navbar.Brand href="#home">
+                {/* wrap svg in container of set size and make sure image can not exceed container's size */}
                 <div style={{ width: '60px', height: '60px' }}>
                     <ReactSVG
                         src={logo}

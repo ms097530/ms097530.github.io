@@ -9,9 +9,12 @@ export default function Section({ title, children })
     const sectionName = title.toLowerCase().slice(3)
     return (
         <div className={`Section__${sectionName}`} id={`${sectionName}`}>
-            <h2 className={classes.title}>
-                {title}
-            </h2>
+            {/* wrap title in div so can use pseudo element on wrapper and cover line behind text */}
+            <div className={classes.container}>
+                <h2 className={classes.title}>
+                    {title}
+                </h2>
+            </div>
             {
                 children
             }
