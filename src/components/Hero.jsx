@@ -9,7 +9,7 @@ export default function Hero()
     const classes = useStyles()
     const { ref, inView, entry } = useInView({
         triggerOnce: true,
-        rootMargin: '-100px 0px'
+        rootMargin: '-30% 0px'
     })
 
     return (

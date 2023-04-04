@@ -8,7 +8,7 @@ export default function Mission()
 {
     const { ref, inView, entry } = useInView({
         triggerOnce: true,
-        rootMargin: '-100px 0px'
+        rootMargin: '-30% 0px'
     })
 
     const classes = useStyles()
