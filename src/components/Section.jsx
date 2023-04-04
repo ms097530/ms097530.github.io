@@ -1,7 +1,7 @@
 import { createUseStyles } from "react-jss"
 import styles from './Section-styles'
 
-const useStyles = createUseStyles()
+const useStyles = createUseStyles(styles)
 
 export default function Section({ title, children })
 {
