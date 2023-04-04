@@ -2,7 +2,8 @@ export default {
     gradientContainer:
     {
         backgroundImage: 'linear-gradient(to right, transparent 15%, var(--white) 15%, var(--white) 85%, transparent 85%)',
-        paddingTop: '1px'
+        paddingTop: '1px',
+        marginTop: '6rem'
     },
     container:
     {
